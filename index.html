@@ -15,32 +15,102 @@
         }
 
         body {
-            padding: 5%;
-            background-color: white;
+            max-width: 1200px;
+            margin: auto;
+            background-color:blanchedalmond;
             font-family: monospace;
+        }
+
+        body>h1 {
+            margin: 28px 0;
+            font-size: 48px;
             text-align: center;
         }
 
+        body>p {
+            margin-bottom: 25px;
+            text-align: left;
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: rgb(252, 222, 177);
+        }
+
         .card {
-            margin: 0px 0px 10px 0px;
-            padding: 28px;
-            background-color: blanchedalmond;
-            line-height: 1.5;
-            border-radius: 20px;
+            margin: 25px 15px;
+            padding: 14px 28px;
+            line-height: 2;
+            border-radius: 25px;
+        }
+
+        .card h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        b {
+            font-size: 18px;
+        }
+
+        ul {
+            margin-left: 2.5%;
+            line-height: 1.8;
         }
     </style>
 </head>
 
 <body>
-    <div class="card">
-        <h1>GIT Session</h1>
-        <p>
-            Date: April 12<sup>th</sup>, 2021
-        </p>
-        <p>
-            Instructor: Shalini Gupta
-        </p>
+    <h1>GIT SESSION</h1>
+    <p>Instructor: Shalini Gupta</p>
+    <div class="cards">
+        <div class="card one">
+            <h1>#1</h1>
+            <p class="bio">
+            <p>Date: April 12<sup>th</sup>, 2021</p>
+            </p>
+            <b>Topics Covered:</b>
+            <ul>
+                <li>Introduction to version control system</li>
+                <li>Types of version control system</li>
+                <li>Basic Linux Commands</li>
+                <li>Accessing Google Cloud Console</li>
+                <li>GIT Account Setup in Local Machine</li>
+                <li>Process of GIT: Track, Stage and Commit</li>
+            </ul>
+        </div>
+        <div class="card two">
+            <h1>#2</h1>
+            <p class="bio">
+            <p>Date: April 13<sup>th</sup>, 2021</p>
+
+            </p>
+            <b>Topics Covered:</b>
+            <ul>
+                    <li>Introduction to version control system</li>
+                <li>Types of version control system</li>
+                <li>Basic Linux Commands</li>
+                <li>Accessing Google Cloud Console</li>
+                <li>GIT Account Setup in Local Machine</li>
+                <li>Process of GIT: Track, Stage and Commit</li>
+            </ul>
+        </div>
+          <div class="card three">
+            <h1>#3</h1>
+            <p class="bio">
+            <p>Date: April 14<sup>th</sup>, 2021</p>
+
+            </p>
+            <b>Topics Covered:</b>
+            <ul>
+                <li>Introduction to version control system</li>
+                <li>Types of version control system</li>
+                <li>Basic Linux Commands</li>
+                <li>Accessing Google Cloud Console</li>
+                <li>GIT Account Setup in Local Machine</li>
+                <li>Process of GIT: Track, Stage and Commit</li>
+            </ul>
+        </div>
     </div>
+
 </body>
 
 </html>
