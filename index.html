@@ -55,6 +55,13 @@
             margin-left: 2.5%;
             line-height: 1.8;
         }
+
+        i {
+            font-family: monospace;
+            background-color: rgb(252, 222, 177);
+            padding: 3px 9px;
+            margin-left: 2.5%;
+        }
     </style>
 </head>
 
@@ -69,20 +76,38 @@
             </p>
             <b>Topics Covered:</b>
             <ul>
-                <li>Introduction to version control system</li>
-                <li>Types of version control system</li>
-                <li>Basic Linux Commands</li>
+                <li>Introduction to Version Control System</li>
+                <li>Types of Version Control System
+                    <br>
+                    <i>a) Centralised Version Control System</i><br>
+                    <i>b) Distributed Version Control System</i><br>
+                </li>
+                <li>Basic Linux Commands
+                    <br>
+                    <i>ls</i><br>
+                    <i>ls -a</i><br>
+                    <i>ls -la</i><br>
+                    <i>cd</i><br>
+                    <i>pwd</i><br>
+                    <i>cat > filename</i><br>
+                    <i>vi filename</i><br>
+                    <i>touch filename</i><br>
+                </li>
                 <li>Setting up GitHub Account and Google Cloud Console</li>
                 <li>GIT Account Setup in Local Machine
                     <br>
-                    <i>git config -g user.name</i><br>
-                    <i>git config -g user.email</i><br>
-                    <i>git config</i><br>
+                    <i>git --version</i><br>
+                    <i>git config –-global user.name “Your Name”</i><br>
+                    <i>git config -–global user.email “GitHub Email”</i><br>
+                    <i>git config –-list</i><br>
+                    <i>git config user.name</i><br>
+                    <i>git config user.email</i><br>
                 </li>
                 <li>Process of GIT: Track, Stage and Commit
                     <br>
+                    <i>git init</i><br>
                     <i>git status</i><br>
-                    <i>git add filename or git add .</i><br>
+                    <i>git add filename</i>or<i>git add .</i><br>
                     <i>git commit -m "Message"</i><br>
                     <i>git log</i><br>
                     <i>git remote add origin URL</i><br>
@@ -98,10 +123,12 @@
             </p>
             <b>Topics Covered:</b>
             <ul>
-                <li>Switching Between Branches - Two ways: First way by commiting changes in current branch and Second
-                    way by
-                    stashing/hide changes in current branch
-                    <br>
+                <li>Switching Between Branches
+                    <br>Two ways:<br>
+                    <em>a) Commiting changes in current branch</em><br>
+                    <em>b) Stashing/Hiding changes in current branch</em><br>
+                    <i>git branch</i><br>
+                    <i>git branch branchname</i><br>
                     <i>git checkout branchname</i> <br>
                     <i>git stash</i> <br>
                     <i>git stash list</i> <br>
@@ -114,7 +141,7 @@
                 </li>
                 <li>Merging Changes
                     <br>
-                    <i>git merge</i><br>
+                    <i>git merge branchname</i><br>
                 </li>
 
             </ul>
